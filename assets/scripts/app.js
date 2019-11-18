@@ -6,6 +6,8 @@
 // use require without a reference to ensure a file is bundled
 // require('./example')
 
+const countryEvent = require('./countries/events.js')
+
 $(() => {
-  // your JS code goes here
+  $('#fetch-location').on('submit', countryEvent.onCountryGet)
 })

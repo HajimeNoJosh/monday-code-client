@@ -2,8 +2,8 @@
 
 let apiUrl
 const apiUrls = {
-  production: '<replace-with-heroku-url>',
-  development: 'http://localhost:4741'
+  production: 'https://api.openweathermap.org/data/2.5/weather?q=',
+  development: 'https://api.openweathermap.org/data/2.5/weather?q='
 }
 
 if (window.location.hostname === 'localhost') {
