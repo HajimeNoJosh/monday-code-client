@@ -1,1 +1,116 @@
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Laila&display=swap');
+
+body {
+  margin: 2% 1%;
+  background-image: linear-gradient(to right, #CA6C37, #92322C);
+  height: 100%;
+  background-repeat: no-repeat;
+  letter-spacing: 2px;
+}
+
+hr {
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+  background-color: gray;
+  margin-left: 0;
+}
+
+.location {
+  background-color: #2B3746;
+  margin: 0;
+  padding-left: 5%;
+  padding-top: 10%;
+}
+
+.row {
+    box-shadow:  8px 21px 31px -15px black;
+}
+
+.weather-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('../public/background.jpg');
+  background-size: 100% 100%;
+  height: 711px;
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Slab', serif;
+  font-style: bold;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-family: 'Laila', serif;
+}
+
+.get-weather-button {
+  background-color: #D2524F;
+  color: white;
+  // border-color: #4571AD;
+  // border-width: 4px;
+  border: none;
+  border-radius: 3px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 140px;
+  height: 40px;
+  font-size: 15px;
+}
+
+.form-field {
+ background: transparent;
+ outline: 0;
+ border-width: 0 0 1px;
+ border-color: #C94E4F;
+ margin-right: 1em;
+ color: white;
+ font-size: 23px;
+ margin-bottom: 20px;
+}
+
+.information-section {
+    font-size: 22px;
+}
+
+.location-title {
+  color: #A94C54;
+}
+
+.temperature-title {
+  color: #A94C54;
+}
+
+.humidity-title {
+  color: #A94C54;
+}
+
+.conditions-title {
+  color: #A94C54;
+}
+
+.location-fill {
+  color: white;
+}
+
+.temperature-fill {
+  color: white;
+}
+
+.humidity-fill {
+  color: white;
+}
+
+.conditions-fill {
+  color: white;
+}
