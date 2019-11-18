@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Do not add `link` tags-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+  <!-- Do not add `script` tags-->
+  <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-sm-5 weather-home">
+          <h1 class='title'>Weather Finder</h1>
+          <h4 class='subtitle'> Find out the temperature, </h4>  <h4 class='subtitle'> weather conditions and more...</h4>
+        </div>
+        <div class="col-sm-7 location">
+          <div class='message'></div>
+          <form id="fetch-location">
+            <input placeholder="Enter city..." type="text" name="location[city]" class='form-field focus'>
+            <input placeholder="Enter country..." type="text" name="location[country]" class='form-field'>
+            <button id="get-weather" class="get-weather-button">Get Weather</button>
+          </form>
+          <br>
+          <div class='information-section'>
+          <div class="location-title"> Location: <span class='location-fill'></span> </div>
+          <hr>
+          <div class="temperature-title"> Temperature: <span class='temperature-fill'></span> </div>
+          <hr>
+          <div class="humidity-title"> Humidity: <span class='humidity-fill'></span> </div>
+          <hr>
+          <div class="conditions-title"> Conditions: <span class='conditions-fill'></span> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
