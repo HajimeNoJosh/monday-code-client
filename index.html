@@ -15,14 +15,16 @@
 
 <body>
     <div class="container-fluid">
+
       <div class="row">
         <div class="col-sm-5 weather-home">
           <h1 class='title'>Weather Finder</h1>
           <h4 class='subtitle'> Find out the temperature, </h4>  <h4 class='subtitle'> weather conditions and more...</h4>
         </div>
         <div class="col-sm-7 location">
+          <div class='message'></div>
           <form id="fetch-location">
-            <input placeholder="Enter city..." type="text" name="location[city]" class='form-field'>
+            <input placeholder="Enter city..." type="text" name="location[city]" class='form-field focus'>
             <input placeholder="Enter country..." type="text" name="location[country]" class='form-field'>
             <button id="get-weather" class="get-weather-button">Get Weather</button>
           </form>
